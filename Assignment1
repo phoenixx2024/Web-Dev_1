@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Cake Haven</title>
+    <style>
+        body { 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            margin: 10; 
+            padding: 20px; 
+            background:#ca6680;
+        }
+        header {
+            background: #d5bdaf;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 5px 5px rgba(2,0,5,0.1);
+        }
+        .header-content {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px ;
+            margin:0 auto;
+        }
+        .branding{
+            display:flex;
+            align-items: center;
+            gap:20px;
+            
+    color: black;
+}
+        
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        .contact-info {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .contact-info span {
+            font-size: 16px;
+        }
+        .cake {
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 10px 5px rgba(88, 13, 13, 0.077);
+            text-align: center;
+        }
+        .cake img {
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 15px 15px rgba(89, 12, 60, 0.1);
+            padding: 50px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="branding">
+                <img class="logo" src="https://i.pinimg.com/736x/64/2a/29/642a292cb9d1039bd8eb24e7b02aa154.jpg" alt="Cake Haven Logo">
+                <h1>The Cake Haven</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="contact-info">
+                <span>📞 987654321</span>
+                <span>✉️ abc@gmail.com</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="cake">
+        <img src="https://i.pinimg.com/474x/89/84/48/8984487d94bd344d97a4553c18ac03e0.jpg" alt="Chocolate Cake">
+        <h2>Chocolate Cake</h2>
+        <p>₹500</p>
+    </div>
+
+    <div class="cake">
+        <img src="https://i.pinimg.com/474x/4e/27/cb/4e27cbd4b877d4926f312e26a64fed16.jpg" alt="Vanilla Cake">
+        <h2>Vanilla Cake</h2>
+        <p>₹450</p>
+    </div>
+    <footer>
+        <p>To order from us, do call or write an email to us.</p>
+        <p>© 2025 The Cake Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
